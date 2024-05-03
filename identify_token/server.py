@@ -3,7 +3,7 @@ import pandas as pd
 import json
 
 app = Flask(__name__)
-csv_path = "hotel_booking_simple.csv"
+csv_path = "../modified_data/hotel_booking_simple_age_token.csv"
 simple_data = pd.read_csv(csv_path)
 
 
