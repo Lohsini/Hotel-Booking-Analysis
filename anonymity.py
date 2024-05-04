@@ -514,7 +514,7 @@ def getPrecision(users: List[User]) -> float:
 
 def main():
     raw_users_list, header = read_raw_data(
-        "./modified_data/hotel_booking_simple(+age).csv"
+        "./data/hotel_booking.csv"
     )
     processed_users_list = generalizeUsers(raw_users_list.copy())
     final_users_list = remove_unsatisfied_users(processed_users_list)
