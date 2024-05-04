@@ -1,6 +1,6 @@
 # Hotel-Booking-Analysis
 
-Group#13
+Group#12
 
 This program has 4 different major parts. You need to enter the corresponding folder and then run the code inside.
 
